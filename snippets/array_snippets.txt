@@ -1,0 +1,4 @@
+//these are my snippets to work with arrays
+
+
+
