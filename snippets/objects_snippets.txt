@@ -1,0 +1,6 @@
+
+//initialize a class
+
+TheClass *newObject = [[TheClass alloc] init];
+
+

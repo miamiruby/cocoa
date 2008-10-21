@@ -1,4 +1,19 @@
 //these are my snippets to work with arrays
 
+//initialize an array
+NSMutableArray *foo; 
+foo = [NSMutableArray alloc]; 
+[foo init]; 
+
+//or a simpler form
+NSMutableArray *foo; 
+foo = [[NSMutableArray alloc] init];
+
+//how to add object to end of array
+[foo addObject:bar];
+
+//add object at specific index
+[foo insertObject:bar atIndex:5]; 
+
 
 
