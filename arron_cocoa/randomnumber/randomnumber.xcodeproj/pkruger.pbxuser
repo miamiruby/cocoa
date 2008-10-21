@@ -34,8 +34,20 @@
 			PBXPerProjectTemplateStateSaveDate = 246238518;
 			PBXWorkspaceStateSaveDate = 246238518;
 		};
+		perUserProjectItems = {
+			2CF2101E0EAD4E6900E792E3 /* PBXBookmark */ = 2CF2101E0EAD4E6900E792E3 /* PBXBookmark */;
+			2CF2101F0EAD4E6900E792E3 /* PBXTextBookmark */ = 2CF2101F0EAD4E6900E792E3 /* PBXTextBookmark */;
+		};
 		sourceControlManager = 2CF2101A0EAD4D3800E792E3 /* Source Control */;
 		userBuildSettings = {
+		};
+	};
+	29B97316FDCFA39411CA2CEA /* main.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {519, 285}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 255}";
+			sepNavWindowFrame = "{{15, 41}, {1351, 837}}";
 		};
 	};
 	2CF2100C0EAD4D3600E792E3 /* randomnumber */ = {
@@ -45,12 +57,13 @@
 		argumentStrings = (
 		);
 		autoAttachOnCrash = 1;
-		breakpointsEnabled = 1;
+		breakpointsEnabled = 0;
 		configStateDict = {
 		};
 		customDataFormattersEnabled = 1;
 		debuggerPlugin = GDBDebugging;
 		disassemblyDisplayState = 0;
+		dylibVariantSuffix = "";
 		enableDebugStr = 1;
 		environmentEntries = (
 		);
@@ -71,6 +84,20 @@
 	2CF2101B0EAD4D3800E792E3 /* Code sense */ = {
 		isa = PBXCodeSenseManager;
 		indexTemplatePath = "";
+	};
+	2CF2101E0EAD4E6900E792E3 /* PBXBookmark */ = {
+		isa = PBXBookmark;
+		fRef = 29B97316FDCFA39411CA2CEA /* main.m */;
+	};
+	2CF2101F0EAD4E6900E792E3 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 29B97316FDCFA39411CA2CEA /* main.m */;
+		name = "main.m: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 255;
+		vrLoc = 0;
 	};
 	8D1107260486CEB800E47090 /* randomnumber */ = {
 		activeExec = 0;

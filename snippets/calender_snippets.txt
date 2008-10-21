@@ -1,0 +1,10 @@
+
+
+
+//set a date in a textfield label
+    NSCalendarDate *now; 
+    now = [NSCalendarDate calendarDate]; 
+    [textField setObjectValue:now];
+
+
+
