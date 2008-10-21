@@ -19,10 +19,11 @@
     if (![super init]) 
         return nil; 
 	//correct
-	//NSAssert(theDate != nil, @"Argument must be non-nil"); 
+	NSAssert(theDate != nil, @"Argument must be non-nil"); 
 	
 	//wrong
-	NSAssert(theDate == nil, @"Argument must be nil"); 
+	//NSAssert(theDate == nil, @"Argument must be nil"); 
+
     entryDate = theDate; 
     firstNumber = random() % 100 + 1; 
     secondNumber = random() % 100 + 1; 
@@ -32,9 +33,12 @@
 - (NSString *)description 
 { 
     NSString *result; 
-    result = [[NSString alloc] initWithFormat:@"%@ = %d and %d", 
-              [entryDate descriptionWithCalendarFormat:@"%b %d %Y"], 
-              firstNumber, secondNumber]; 
+	//org
+	//result = [[NSString alloc] initWithFormat:@"%@ = %d and %d", [entryDate descriptionWithCalendarFormat:@"%b %d %Y"], firstNumber, secondNumber];
+	
+	//challenge
+	result = [[NSString alloc] initWithFormat:@"%@ = %d and %d", [entryDate descriptionWithCalendarFormat:@"%a %m/%d/%y %I:%M %p"], firstNumber, secondNumber];
+	
     return result; 
 }
 

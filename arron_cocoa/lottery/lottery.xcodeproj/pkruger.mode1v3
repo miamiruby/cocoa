@@ -197,7 +197,48 @@
 	<key>Notifications</key>
 	<array/>
 	<key>OpenEditors</key>
-	<array/>
+	<array>
+		<dict>
+			<key>Content</key>
+			<dict>
+				<key>PBXProjectModuleGUID</key>
+				<string>2CF2112C0EAD7AE800E792E3</string>
+				<key>PBXProjectModuleLabel</key>
+				<string>LotteryEntry.m</string>
+				<key>PBXSplitModuleInNavigatorKey</key>
+				<dict>
+					<key>Split0</key>
+					<dict>
+						<key>PBXProjectModuleGUID</key>
+						<string>2CF2112D0EAD7AE800E792E3</string>
+						<key>PBXProjectModuleLabel</key>
+						<string>LotteryEntry.m</string>
+						<key>_historyCapacity</key>
+						<integer>0</integer>
+						<key>bookmark</key>
+						<string>2CF2112E0EAD7AE800E792E3</string>
+						<key>history</key>
+						<array>
+							<string>2CF211290EAD79B500E792E3</string>
+						</array>
+					</dict>
+					<key>SplitCount</key>
+					<string>1</string>
+				</dict>
+				<key>StatusBarVisibility</key>
+				<true/>
+			</dict>
+			<key>Geometry</key>
+			<dict>
+				<key>Frame</key>
+				<string>{{0, 20}, {1351, 735}}</string>
+				<key>PBXModuleWindowStatusBarHidden2</key>
+				<false/>
+				<key>RubberWindowFrame</key>
+				<string>15 102 1351 776 0 0 1440 878 </string>
+			</dict>
+		</dict>
+	</array>
 	<key>PerspectiveWidths</key>
 	<array>
 		<integer>-1</integer>
@@ -274,8 +315,9 @@
 							<key>PBXSmartGroupTreeModuleOutlineStateSelectionKey</key>
 							<array>
 								<array>
-									<integer>10</integer>
-									<integer>9</integer>
+									<integer>3</integer>
+									<integer>1</integer>
+									<integer>0</integer>
 								</array>
 							</array>
 							<key>PBXSmartGroupTreeModuleOutlineStateVisibleRectKey</key>
@@ -326,7 +368,7 @@
 										<key>_historyCapacity</key>
 										<integer>0</integer>
 										<key>bookmark</key>
-										<string>2CF211260EAD755F00E792E3</string>
+										<string>2CF2112B0EAD7AE800E792E3</string>
 										<key>history</key>
 										<array>
 											<string>2CF210C20EAD6BC800E792E3</string>
@@ -552,8 +594,6 @@
 	<integer>5</integer>
 	<key>WindowOrderList</key>
 	<array>
-		<string>2CF211270EAD755F00E792E3</string>
-		<string>2CF211280EAD755F00E792E3</string>
 		<string>2CF211110EAD732600E792E3</string>
 		<string>2CF210AC0EAD616700E792E3</string>
 		<string>2CF210AD0EAD616700E792E3</string>
@@ -561,6 +601,7 @@
 		<string>2CF210A10EAD616700E792E3</string>
 		<string>/Users/pkruger/Sites/cocoa/arron_cocoa/lottery/lottery.xcodeproj</string>
 		<string>1C78EAAD065D492600B07095</string>
+		<string>2CF2112C0EAD7AE800E792E3</string>
 	</array>
 	<key>WindowString</key>
 	<string>0 101 1440 777 0 0 1440 878 </string>
