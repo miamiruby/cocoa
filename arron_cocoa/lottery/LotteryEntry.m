@@ -14,17 +14,25 @@
 { 
     return [self initWithEntryDate:[NSCalendarDate calendarDate]]; 
 }
+
+- (void)dealloc 
+{ 
+	NSLog(@"deallocing %@", self); 
+	[entryDate release]; 
+	[super dealloc]; 
+}
 - (id)initWithEntryDate:(NSCalendarDate *)theDate 
 { 
-    if (![super init]) 
-        return nil; 
+	if (![super init]) 
+		return nil; 
+
 	//correct
 	NSAssert(theDate != nil, @"Argument must be non-nil"); 
 	
 	//wrong
 	//NSAssert(theDate == nil, @"Argument must be nil"); 
+	entryDate = [theDate retain]; 
 
-    entryDate = theDate; 
     firstNumber = random() % 100 + 1; 
     secondNumber = random() % 100 + 1; 
     return self; 
@@ -39,11 +47,14 @@
 	//challenge
 	result = [[NSString alloc] initWithFormat:@"%@ = %d and %d", [entryDate descriptionWithCalendarFormat:@"%a %m/%d/%y %I:%M %p"], firstNumber, secondNumber];
 	
+	[result autorelease]; 
     return result; 
-}
+} 
 
 - (void)setEntryDate:(NSCalendarDate *)date 
 { 
+	[date retain]; 
+	[entryDate release]; 
     entryDate = date; 
 } 
 

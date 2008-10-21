@@ -197,48 +197,7 @@
 	<key>Notifications</key>
 	<array/>
 	<key>OpenEditors</key>
-	<array>
-		<dict>
-			<key>Content</key>
-			<dict>
-				<key>PBXProjectModuleGUID</key>
-				<string>2CF2112C0EAD7AE800E792E3</string>
-				<key>PBXProjectModuleLabel</key>
-				<string>LotteryEntry.m</string>
-				<key>PBXSplitModuleInNavigatorKey</key>
-				<dict>
-					<key>Split0</key>
-					<dict>
-						<key>PBXProjectModuleGUID</key>
-						<string>2CF2112D0EAD7AE800E792E3</string>
-						<key>PBXProjectModuleLabel</key>
-						<string>LotteryEntry.m</string>
-						<key>_historyCapacity</key>
-						<integer>0</integer>
-						<key>bookmark</key>
-						<string>2CF2112E0EAD7AE800E792E3</string>
-						<key>history</key>
-						<array>
-							<string>2CF211290EAD79B500E792E3</string>
-						</array>
-					</dict>
-					<key>SplitCount</key>
-					<string>1</string>
-				</dict>
-				<key>StatusBarVisibility</key>
-				<true/>
-			</dict>
-			<key>Geometry</key>
-			<dict>
-				<key>Frame</key>
-				<string>{{0, 20}, {1351, 735}}</string>
-				<key>PBXModuleWindowStatusBarHidden2</key>
-				<false/>
-				<key>RubberWindowFrame</key>
-				<string>15 102 1351 776 0 0 1440 878 </string>
-			</dict>
-		</dict>
-	</array>
+	<array/>
 	<key>PerspectiveWidths</key>
 	<array>
 		<integer>-1</integer>
@@ -269,8 +228,6 @@
 			<key>Layout</key>
 			<array>
 				<dict>
-					<key>BecomeActive</key>
-					<true/>
 					<key>ContentConfiguration</key>
 					<dict>
 						<key>PBXBottomSmartGroupGIDs</key>
@@ -315,9 +272,8 @@
 							<key>PBXSmartGroupTreeModuleOutlineStateSelectionKey</key>
 							<array>
 								<array>
-									<integer>3</integer>
-									<integer>1</integer>
-									<integer>0</integer>
+									<integer>10</integer>
+									<integer>9</integer>
 								</array>
 							</array>
 							<key>PBXSmartGroupTreeModuleOutlineStateVisibleRectKey</key>
@@ -351,12 +307,14 @@
 					<key>Dock</key>
 					<array>
 						<dict>
+							<key>BecomeActive</key>
+							<true/>
 							<key>ContentConfiguration</key>
 							<dict>
 								<key>PBXProjectModuleGUID</key>
 								<string>1CE0B20306471E060097A5F4</string>
 								<key>PBXProjectModuleLabel</key>
-								<string>lottery.m</string>
+								<string>LotteryEntry.m</string>
 								<key>PBXSplitModuleInNavigatorKey</key>
 								<dict>
 									<key>Split0</key>
@@ -364,43 +322,28 @@
 										<key>PBXProjectModuleGUID</key>
 										<string>1CE0B20406471E060097A5F4</string>
 										<key>PBXProjectModuleLabel</key>
-										<string>lottery.m</string>
+										<string>LotteryEntry.m</string>
 										<key>_historyCapacity</key>
 										<integer>0</integer>
 										<key>bookmark</key>
-										<string>2CF2112B0EAD7AE800E792E3</string>
+										<string>2CF212090EADA67300E792E3</string>
 										<key>history</key>
 										<array>
 											<string>2CF210C20EAD6BC800E792E3</string>
 											<string>2CF210C40EAD6BC800E792E3</string>
-											<string>2CF210F20EAD6D9D00E792E3</string>
-											<string>2CF211230EAD755F00E792E3</string>
-											<string>2CF211240EAD755F00E792E3</string>
+											<string>2CF211390EAD7E7C00E792E3</string>
+											<string>2CF212050EADA67300E792E3</string>
+											<string>2CF212060EADA67300E792E3</string>
 										</array>
 										<key>prevStack</key>
 										<array>
 											<string>2CF210C70EAD6BC800E792E3</string>
 											<string>2CF210C80EAD6BC800E792E3</string>
-											<string>2CF210CA0EAD6BC800E792E3</string>
 											<string>2CF210CB0EAD6BC800E792E3</string>
-											<string>2CF210CC0EAD6BC800E792E3</string>
 											<string>2CF210CD0EAD6BC800E792E3</string>
-											<string>2CF210CE0EAD6BC800E792E3</string>
-											<string>2CF210CF0EAD6BC800E792E3</string>
-											<string>2CF210D00EAD6BC800E792E3</string>
-											<string>2CF210D10EAD6BC800E792E3</string>
-											<string>2CF210D90EAD6C3F00E792E3</string>
-											<string>2CF210E70EAD6D2400E792E3</string>
-											<string>2CF210E80EAD6D2400E792E3</string>
-											<string>2CF210E90EAD6D2400E792E3</string>
 											<string>2CF210EF0EAD6D7900E792E3</string>
-											<string>2CF210F30EAD6D9D00E792E3</string>
-											<string>2CF210F40EAD6D9D00E792E3</string>
-											<string>2CF211010EAD6F6F00E792E3</string>
-											<string>2CF211080EAD711400E792E3</string>
-											<string>2CF2110E0EAD732600E792E3</string>
-											<string>2CF2110F0EAD732600E792E3</string>
-											<string>2CF211250EAD755F00E792E3</string>
+											<string>2CF212070EADA67300E792E3</string>
+											<string>2CF212080EADA67300E792E3</string>
 										</array>
 									</dict>
 									<key>SplitCount</key>
@@ -458,9 +401,9 @@
 			</array>
 			<key>TableOfContents</key>
 			<array>
-				<string>2CF210850EAD5C3D00E792E3</string>
+				<string>2CF2120A0EADA67300E792E3</string>
 				<string>1CE0B1FE06471DED0097A5F4</string>
-				<string>2CF210860EAD5C3D00E792E3</string>
+				<string>2CF2120B0EADA67300E792E3</string>
 				<string>1CE0B20306471E060097A5F4</string>
 				<string>1CE0B20506471E060097A5F4</string>
 			</array>
@@ -594,14 +537,10 @@
 	<integer>5</integer>
 	<key>WindowOrderList</key>
 	<array>
-		<string>2CF211110EAD732600E792E3</string>
-		<string>2CF210AC0EAD616700E792E3</string>
-		<string>2CF210AD0EAD616700E792E3</string>
-		<string>1CD10A99069EF8BA00B06720</string>
-		<string>2CF210A10EAD616700E792E3</string>
-		<string>/Users/pkruger/Sites/cocoa/arron_cocoa/lottery/lottery.xcodeproj</string>
 		<string>1C78EAAD065D492600B07095</string>
-		<string>2CF2112C0EAD7AE800E792E3</string>
+		<string>2CF210A10EAD616700E792E3</string>
+		<string>1CD10A99069EF8BA00B06720</string>
+		<string>/Users/pkruger/Sites/cocoa/arron_cocoa/lottery/lottery.xcodeproj</string>
 	</array>
 	<key>WindowString</key>
 	<string>0 101 1440 777 0 0 1440 878 </string>
@@ -620,14 +559,12 @@
 					<key>Dock</key>
 					<array>
 						<dict>
-							<key>BecomeActive</key>
-							<true/>
 							<key>ContentConfiguration</key>
 							<dict>
 								<key>PBXProjectModuleGUID</key>
 								<string>1CD0528F0623707200166675</string>
 								<key>PBXProjectModuleLabel</key>
-								<string>lottery.m</string>
+								<string></string>
 								<key>StatusBarVisibility</key>
 								<true/>
 							</dict>
@@ -647,7 +584,7 @@
 							<key>ContentConfiguration</key>
 							<dict>
 								<key>PBXBuildLogShowsTranscriptDefaultKey</key>
-								<string>{{0, 93}, {1440, 143}}</string>
+								<string>{{0, 31}, {1440, 205}}</string>
 								<key>PBXProjectModuleGUID</key>
 								<string>XCMainBuildResultsModuleGUID</string>
 								<key>PBXProjectModuleLabel</key>
@@ -685,7 +622,7 @@
 			<key>TableOfContents</key>
 			<array>
 				<string>2CF210A10EAD616700E792E3</string>
-				<string>2CF210A20EAD616700E792E3</string>
+				<string>2CF211FD0EADA67100E792E3</string>
 				<string>1CD0528F0623707200166675</string>
 				<string>XCMainBuildResultsModuleGUID</string>
 			</array>
@@ -727,8 +664,8 @@
 										<string>yes</string>
 										<key>sizes</key>
 										<array>
-											<string>{{0, 0}, {655, 357}}</string>
-											<string>{{655, 0}, {785, 357}}</string>
+											<string>{{0, 0}, {654, 375}}</string>
+											<string>{{654, 0}, {786, 375}}</string>
 										</array>
 									</dict>
 									<key>VerticalSplitView</key>
@@ -743,8 +680,8 @@
 										<string>yes</string>
 										<key>sizes</key>
 										<array>
-											<string>{{0, 0}, {1440, 357}}</string>
-											<string>{{0, 357}, {1440, 378}}</string>
+											<string>{{0, 0}, {1440, 375}}</string>
+											<string>{{0, 375}, {1440, 360}}</string>
 										</array>
 									</dict>
 								</dict>
@@ -774,10 +711,10 @@
 										<string>Value</string>
 										<real>85</real>
 										<string>Summary</string>
-										<real>555</real>
+										<real>556</real>
 									</array>
 									<key>Frame</key>
-									<string>{{655, 0}, {785, 357}}</string>
+									<string>{{654, 0}, {786, 375}}</string>
 									<key>RubberWindowFrame</key>
 									<string>0 102 1440 776 0 0 1440 878 </string>
 								</dict>
@@ -805,13 +742,13 @@
 			<key>TableOfContents</key>
 			<array>
 				<string>1CD10A99069EF8BA00B06720</string>
-				<string>2CF210A30EAD616700E792E3</string>
+				<string>2CF211FE0EADA67100E792E3</string>
 				<string>1C162984064C10D400B95A72</string>
-				<string>2CF210A40EAD616700E792E3</string>
-				<string>2CF210A50EAD616700E792E3</string>
-				<string>2CF210A60EAD616700E792E3</string>
-				<string>2CF210A70EAD616700E792E3</string>
-				<string>2CF210A80EAD616700E792E3</string>
+				<string>2CF211FF0EADA67100E792E3</string>
+				<string>2CF212000EADA67100E792E3</string>
+				<string>2CF212010EADA67100E792E3</string>
+				<string>2CF212020EADA67100E792E3</string>
+				<string>2CF212030EADA67100E792E3</string>
 			</array>
 			<key>ToolbarConfiguration</key>
 			<string>xcode.toolbar.config.debugV3</string>
@@ -975,7 +912,7 @@
 			<key>TableOfContents</key>
 			<array>
 				<string>1C78EAAD065D492600B07095</string>
-				<string>2CF210A90EAD616700E792E3</string>
+				<string>2CF212040EADA67100E792E3</string>
 				<string>1C78EAAC065D492600B07095</string>
 			</array>
 			<key>ToolbarConfiguration</key>
@@ -985,7 +922,7 @@
 			<key>WindowToolGUID</key>
 			<string>1C78EAAD065D492600B07095</string>
 			<key>WindowToolIsVisible</key>
-			<true/>
+			<false/>
 		</dict>
 		<dict>
 			<key>Identifier</key>

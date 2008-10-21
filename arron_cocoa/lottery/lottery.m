@@ -28,19 +28,22 @@ int main (int argc, const char *argv[]) {
 		//[newEntry setEntryDate:iWeeksFromNow]; 
 
 		//Create a new instance of LotteryEntry with params
-		LotteryEntry *newEntry = [[LotteryEntry alloc] 
-								 initWithEntryDate:iWeeksFromNow]; 
-
-		// Add the LotteryEntry object to the array 
+		LotteryEntry *newEntry; 
+		newEntry = [[LotteryEntry alloc] initWithEntryDate:iWeeksFromNow]; 
 		[array addObject:newEntry]; 
-
+		[newEntry release]; 
+		
     } 
-
-	for (LotteryEntry *entryToPrint in array) { 
-		// Display its contents 
-		NSLog(@"%@", entryToPrint); 
+	// Done with 'now' 
+	[now release]; 
+	now = nil; 
+    for (LotteryEntry *entryToPrint in array) { 
+        NSLog(@"%@", entryToPrint); 
     } 
-
+	// Done with 'array' 
+	[array release]; 
+	array = nil; 
     [pool drain]; 
-    return 0; 
+    NSLog(@"GC = %@", [NSGarbageCollector defaultCollector]); 
+	return 0; 
 } 
